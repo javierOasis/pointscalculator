@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Points Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Points Calculator</h1>
+    <form id="pointsForm">
+        <label for="amount">Amount ($):</label>
+        <input type="number" id="amount" required>
+
+        <label for="migration">Migration (Yes/No):</label>
+        <input type="text" id="migration" required>
+
+        <button type="button" onclick="calculatePoints()">Calculate</button>
+    </form>
+
+    <div id="results">
+        <p>Base Points: <span id="basePoints">0</span></p>
+        <p>Migration Bonus: <span id="migrationBonus">0</span></p>
+        <p>Total Points: <span id="totalPoints">0</span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
