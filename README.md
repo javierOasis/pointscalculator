@@ -1,1 +1,1 @@
-# pointscalculator
+Simple Calculator for $RAYS
