@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(to right, #007DA3 0%, #E7A77F 58%, #E97047 100%);
+    font-weight: bold; /* Makes all text within the body bold */
     font-family: Arial, sans-serif;
     margin: 40px;
     text-align: center;
